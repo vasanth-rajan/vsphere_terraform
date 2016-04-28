@@ -1,0 +1,2 @@
+terraform plan -var 'label=PortGroup-2000'
+terraform apply -var 'label=PortGroup-2000'

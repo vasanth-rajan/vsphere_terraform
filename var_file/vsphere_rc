@@ -1,0 +1,2 @@
+export VSPHERE_USER="localhost\\cloudinfra1"
+export VSPHERE_PASSWORD="cloudinfra1"

@@ -1,0 +1,1197 @@
+2016/04/27 23:05:38 [INFO] Terraform version: 0.6.14  c7e5b24531e73aae1eec2f7530d968ac8c69804c
+2016/04/27 23:05:38 [DEBUG] Detected home directory from env var: /home/centos
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: atlas = /home/centos/tmp/terraform-provider-atlas
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: aws = /home/centos/tmp/terraform-provider-aws
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: azure = /home/centos/tmp/terraform-provider-azure
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: azurerm = /home/centos/tmp/terraform-provider-azurerm
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: chef = /home/centos/tmp/terraform-provider-chef
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: clc = /home/centos/tmp/terraform-provider-clc
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: cloudflare = /home/centos/tmp/terraform-provider-cloudflare
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: cloudstack = /home/centos/tmp/terraform-provider-cloudstack
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: consul = /home/centos/tmp/terraform-provider-consul
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: datadog = /home/centos/tmp/terraform-provider-datadog
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: digitalocean = /home/centos/tmp/terraform-provider-digitalocean
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: dme = /home/centos/tmp/terraform-provider-dme
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: dnsimple = /home/centos/tmp/terraform-provider-dnsimple
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: docker = /home/centos/tmp/terraform-provider-docker
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: dyn = /home/centos/tmp/terraform-provider-dyn
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: github = /home/centos/tmp/terraform-provider-github
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: google = /home/centos/tmp/terraform-provider-google
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: heroku = /home/centos/tmp/terraform-provider-heroku
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: influxdb = /home/centos/tmp/terraform-provider-influxdb
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: mailgun = /home/centos/tmp/terraform-provider-mailgun
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: mysql = /home/centos/tmp/terraform-provider-mysql
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: null = /home/centos/tmp/terraform-provider-null
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: openstack = /home/centos/tmp/terraform-provider-openstack
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: packet = /home/centos/tmp/terraform-provider-packet
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: postgresql = /home/centos/tmp/terraform-provider-postgresql
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: powerdns = /home/centos/tmp/terraform-provider-powerdns
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: rundeck = /home/centos/tmp/terraform-provider-rundeck
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: statuscake = /home/centos/tmp/terraform-provider-statuscake
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: template = /home/centos/tmp/terraform-provider-template
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: terraform = /home/centos/tmp/terraform-provider-terraform
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: tls = /home/centos/tmp/terraform-provider-tls
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: triton = /home/centos/tmp/terraform-provider-triton
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: ultradns = /home/centos/tmp/terraform-provider-ultradns
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: vcd = /home/centos/tmp/terraform-provider-vcd
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: vsphere = /home/centos/tmp/terraform-provider-vsphere
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: chef = /home/centos/tmp/terraform-provisioner-chef
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: file = /home/centos/tmp/terraform-provisioner-file
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: local-exec = /home/centos/tmp/terraform-provisioner-local-exec
+2016/04/27 23:05:38 [DEBUG] Discovered plugin: remote-exec = /home/centos/tmp/terraform-provisioner-remote-exec
+2016/04/27 23:05:38 [DEBUG] Detected home directory from env var: /home/centos
+2016/04/27 23:05:38 [DEBUG] Attempting to open CLI config file: /home/centos/.terraformrc
+2016/04/27 23:05:38 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2016/04/27 23:05:38 [DEBUG] Detected home directory from env var: /home/centos
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.ConfigTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.OrphanTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.AddOutputOrphanTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.MissingProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.ProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.DisableProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.ProvisionerTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.VertexTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.FlattenTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.ProxyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.TargetsTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.PruneProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.DestroyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+  vsphere_virtual_machine.nodes (destroy tainted)
+  vsphere_virtual_machine.nodes (destroy)
+vsphere_virtual_machine.nodes (destroy tainted)
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.CreateBeforeDestroyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+  vsphere_virtual_machine.nodes (destroy tainted)
+vsphere_virtual_machine.nodes (destroy tainted)
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.PruneDestroyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.PruneNoopTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.CloseProviderTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  vsphere_virtual_machine.nodes
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.RootTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  vsphere_virtual_machine.nodes
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [DEBUG] Starting graph walk: walkInput
+2016/04/27 23:05:38 [DEBUG] vertex root.provider.vsphere: walking
+2016/04/27 23:05:38 [DEBUG] vertex root.provider.vsphere: evaluating
+2016/04/27 23:05:38 [TRACE] [walkInput] Entering eval tree: provider.vsphere
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalInitProvider
+2016/04/27 23:05:38 [DEBUG] Starting plugin: /home/centos/tmp/terraform-provider-vsphere []string{"/home/centos/tmp/terraform-provider-vsphere"}
+2016/04/27 23:05:38 [DEBUG] Waiting for RPC address for: /home/centos/tmp/terraform-provider-vsphere
+2016/04/27 23:05:38 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:38 Plugin address: unix /tmp/tf-plugin802609743
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalBuildProviderConfig
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalInputProvider
+2016/04/27 23:05:38 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:38 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:38 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:38 [TRACE] [walkInput] Exiting eval tree: provider.vsphere
+2016/04/27 23:05:38 [DEBUG] vertex vsphere_virtual_machine.nodes, got dep: provider.vsphere
+2016/04/27 23:05:38 [DEBUG] vertex root.vsphere_virtual_machine.nodes: walking
+2016/04/27 23:05:38 [DEBUG] vertex root.vsphere_virtual_machine.nodes: evaluating
+2016/04/27 23:05:38 [TRACE] [walkInput] Entering eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/27 23:05:38 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
+2016/04/27 23:05:38 [TRACE] [walkInput] Exiting eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [DEBUG] vertex root.vsphere_virtual_machine.nodes: expanding/walking dynamic subgraph
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.ResourceCountTransformer:
+
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.TargetsTransformer:
+
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.RootTransformer:
+
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [DEBUG] vertex root.vsphere_virtual_machine.nodes: walking
+2016/04/27 23:05:38 [DEBUG] vertex root.vsphere_virtual_machine.nodes: evaluating
+2016/04/27 23:05:38 [TRACE] [walkInput] Entering eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:38 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalInstanceInfo
+2016/04/27 23:05:38 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:38 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:38 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:38 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:38 [TRACE] [walkInput] Exiting eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [DEBUG] vertex provider.vsphere (close), got dep: vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [DEBUG] vertex root.provider.vsphere (close): walking
+2016/04/27 23:05:38 [DEBUG] vertex root.provider.vsphere (close): evaluating
+2016/04/27 23:05:38 [TRACE] [walkInput] Entering eval tree: provider.vsphere (close)
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalCloseProvider
+2016/04/27 23:05:38 [TRACE] [walkInput] Exiting eval tree: provider.vsphere (close)
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.ConfigTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.OrphanTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.AddOutputOrphanTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.MissingProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.ProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.DisableProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.ProvisionerTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.VertexTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.FlattenTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.ProxyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.TargetsTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.PruneProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.DestroyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+  vsphere_virtual_machine.nodes (destroy tainted)
+  vsphere_virtual_machine.nodes (destroy)
+vsphere_virtual_machine.nodes (destroy tainted)
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.CreateBeforeDestroyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+  vsphere_virtual_machine.nodes (destroy tainted)
+vsphere_virtual_machine.nodes (destroy tainted)
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.PruneDestroyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.PruneNoopTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.CloseProviderTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  vsphere_virtual_machine.nodes
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.RootTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  vsphere_virtual_machine.nodes
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [DEBUG] Starting graph walk: walkValidate
+2016/04/27 23:05:38 [DEBUG] vertex root.provider.vsphere: walking
+2016/04/27 23:05:38 [DEBUG] vertex root.provider.vsphere: evaluating
+2016/04/27 23:05:38 [TRACE] [walkValidate] Entering eval tree: provider.vsphere
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalInitProvider
+2016/04/27 23:05:38 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalBuildProviderConfig
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalValidateProvider
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalSetProviderConfig
+2016/04/27 23:05:38 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:38 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:38 [TRACE] [walkValidate] Exiting eval tree: provider.vsphere
+2016/04/27 23:05:38 [DEBUG] vertex vsphere_virtual_machine.nodes, got dep: provider.vsphere
+2016/04/27 23:05:38 [DEBUG] vertex root.vsphere_virtual_machine.nodes: walking
+2016/04/27 23:05:38 [DEBUG] vertex root.vsphere_virtual_machine.nodes: evaluating
+2016/04/27 23:05:38 [TRACE] [walkValidate] Entering eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalValidateCount
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
+2016/04/27 23:05:38 [TRACE] [walkValidate] Exiting eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [DEBUG] vertex root.vsphere_virtual_machine.nodes: expanding/walking dynamic subgraph
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.ResourceCountTransformer:
+
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.TargetsTransformer:
+
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.RootTransformer:
+
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [DEBUG] vertex root.vsphere_virtual_machine.nodes: walking
+2016/04/27 23:05:38 [DEBUG] vertex root.vsphere_virtual_machine.nodes: evaluating
+2016/04/27 23:05:38 [TRACE] [walkValidate] Entering eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalValidateResource
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalInstanceInfo
+2016/04/27 23:05:38 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:38 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:38 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:38 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:38 [TRACE] [walkValidate] Exiting eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [DEBUG] vertex provider.vsphere (close), got dep: vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [DEBUG] vertex root.provider.vsphere (close): walking
+2016/04/27 23:05:38 [DEBUG] vertex root.provider.vsphere (close): evaluating
+2016/04/27 23:05:38 [TRACE] [walkValidate] Entering eval tree: provider.vsphere (close)
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalCloseProvider
+2016/04/27 23:05:38 [TRACE] [walkValidate] Exiting eval tree: provider.vsphere (close)
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.ConfigTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.OrphanTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.AddOutputOrphanTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.MissingProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.ProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.DisableProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.ProvisionerTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.VertexTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.FlattenTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.ProxyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.TargetsTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.PruneProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.DestroyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+  vsphere_virtual_machine.nodes (destroy tainted)
+  vsphere_virtual_machine.nodes (destroy)
+vsphere_virtual_machine.nodes (destroy tainted)
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.CreateBeforeDestroyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+  vsphere_virtual_machine.nodes (destroy tainted)
+vsphere_virtual_machine.nodes (destroy tainted)
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.PruneDestroyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.PruneNoopTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.CloseProviderTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  vsphere_virtual_machine.nodes
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [TRACE] Graph after step *terraform.RootTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  vsphere_virtual_machine.nodes
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:38 [DEBUG] Starting graph walk: walkRefresh
+2016/04/27 23:05:38 [DEBUG] vertex root.provider.vsphere: walking
+2016/04/27 23:05:38 [DEBUG] vertex root.provider.vsphere: evaluating
+2016/04/27 23:05:38 [TRACE] [walkRefresh] Entering eval tree: provider.vsphere
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalInitProvider
+2016/04/27 23:05:38 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:38 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalBuildProviderConfig
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalSetProviderConfig
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:38 [DEBUG] root: eval: *terraform.EvalConfigProvider
+2016/04/27 23:05:41 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:41 [INFO] VMWare vSphere Client configured for URL: https://localhost%5Ccloudinfra1:cloudinfra1@smx-vcenter.cisco.com/sdk
+2016/04/27 23:05:41 [TRACE] [walkRefresh] Exiting eval tree: provider.vsphere
+2016/04/27 23:05:41 [DEBUG] vertex vsphere_virtual_machine.nodes, got dep: provider.vsphere
+2016/04/27 23:05:41 [DEBUG] vertex root.vsphere_virtual_machine.nodes: walking
+2016/04/27 23:05:41 [DEBUG] vertex root.vsphere_virtual_machine.nodes: evaluating
+2016/04/27 23:05:41 [TRACE] [walkRefresh] Entering eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/27 23:05:41 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
+2016/04/27 23:05:41 [TRACE] [walkRefresh] Exiting eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:41 [DEBUG] vertex root.vsphere_virtual_machine.nodes: expanding/walking dynamic subgraph
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.ResourceCountTransformer:
+
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.TargetsTransformer:
+
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.RootTransformer:
+
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:41 [DEBUG] vertex root.vsphere_virtual_machine.nodes: walking
+2016/04/27 23:05:41 [DEBUG] vertex root.vsphere_virtual_machine.nodes: evaluating
+2016/04/27 23:05:41 [TRACE] [walkRefresh] Entering eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:41 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalInstanceInfo
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalReadState
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalRefresh
+2016/04/27 23:05:41 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:41 [DEBUG] reading virtual machine: &schema.ResourceData{schema:map[string]*schema.Schema{"folder":(*schema.Schema)(0xc8202bbee0), "vcpu":(*schema.Schema)(0xc8202fc000), "resource_pool":(*schema.Schema)(0xc8202fc340), "gateway":(*schema.Schema)(0xc8202fc410), "boot_delay":(*schema.Schema)(0xc8202fca90), "name":(*schema.Schema)(0xc8202bbd40), "memory":(*schema.Schema)(0xc8202fc0d0), "custom_configuration_parameters":(*schema.Schema)(0xc8202fc820), "domain":(*schema.Schema)(0xc8202fc4e0), "time_zone":(*schema.Schema)(0xc8202fc5b0), "dns_servers":(*schema.Schema)(0xc8202fc750), "datacenter":(*schema.Schema)(0xc8202fc1a0), "cluster":(*schema.Schema)(0xc8202fc270), "dns_suffixes":(*schema.Schema)(0xc8202fc680), "network_interface":(*schema.Schema)(0xc8202fc8f0), "disk":(*schema.Schema)(0xc8202fc9c0)}, config:(*terraform.ResourceConfig)(nil), state:(*terraform.InstanceState)(0xc8202f9d10), diff:(*terraform.InstanceDiff)(nil), multiReader:(*schema.MultiLevelFieldReader)(nil), setWriter:(*schema.MapFieldWriter)(nil), newState:(*terraform.InstanceState)(nil), partial:false, partialMap:map[string]struct {}(nil), once:sync.Once{m:sync.Mutex{state:0, sema:0x0}, done:0x0}, isNew:false}
+2016/04/27 23:05:41 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:41 [DEBUG] &object.Datacenter{Common:object.Common{c:(*vim25.Client)(0xc82033e500), r:types.ManagedObjectReference{Type:"Datacenter", Value:"datacenter-2127"}}}
+2016/04/27 23:05:41 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:41 [DEBUG] types.VirtualMachineConfigSummary{DynamicData:types.DynamicData{}, Name:"testVm-001", Template:false, VmPathName:"[datastore2] testVm-001_2/testVm-001.vmx", MemorySizeMB:512, CpuReservation:0, MemoryReservation:0, NumCpu:1, NumEthernetCards:1, NumVirtualDisks:1, Uuid:"422eb108-7514-895b-1da9-d62d15549d25", InstanceUuid:"502e810c-3c30-39b3-2d2b-9487fb945592", GuestId:"rhel6_64Guest", GuestFullName:"Red Hat Enterprise Linux 6 (64-bit)", Annotation:"", Product:(*types.VAppProductInfo)(nil), InstallBootRequired:(*bool)(0xc82052636a), FtInfo:types.BaseFaultToleranceConfigInfo(nil), ManagedBy:(*types.ManagedByInfo)(nil)}
+2016/04/27 23:05:41 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:41 [DEBUG] []types.GuestNicInfo{types.GuestNicInfo{DynamicData:types.DynamicData{}, Network:"PortGroup-2000", IpAddress:[]string{"192.168.41.69", "fe80::250:56ff:feae:78e0"}, MacAddress:"00:50:56:ae:78:e0", Connected:true, DeviceConfigId:4000, DnsConfig:(*types.NetDnsConfigInfo)(nil), IpConfig:(*types.NetIpConfigInfo)(0xc82050c1e0), NetBIOSConfig:types.BaseNetBIOSConfigInfo(nil)}}
+2016/04/27 23:05:41 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:41 [DEBUG] "PortGroup-2000"
+2016/04/27 23:05:41 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:41 [DEBUG] "192.168.41.69"
+2016/04/27 23:05:41 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:41 [DEBUG] 24
+2016/04/27 23:05:41 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:41 [DEBUG] networkInterface: map[string]interface {}{"label":"PortGroup-2000", "ipv4_address":"192.168.41.69", "ipv4_prefix_length":24}
+2016/04/27 23:05:41 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:41 [DEBUG] "fe80::250:56ff:feae:78e0"
+2016/04/27 23:05:41 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:41 [DEBUG] 64
+2016/04/27 23:05:41 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:41 [DEBUG] networkInterface: map[string]interface {}{"ipv6_prefix_length":64, "label":"PortGroup-2000", "ipv4_address":"192.168.41.69", "ipv4_prefix_length":24, "ipv6_address":"fe80::250:56ff:feae:78e0"}
+2016/04/27 23:05:41 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:41 [DEBUG] networkInterface: map[string]interface {}{"label":"PortGroup-2000", "ipv4_address":"192.168.41.69", "ipv4_prefix_length":24, "ipv6_address":"fe80::250:56ff:feae:78e0", "ipv6_prefix_length":64}
+2016/04/27 23:05:41 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:41 [DEBUG] networkInterfaces: []map[string]interface {}{map[string]interface {}{"label":"PortGroup-2000", "ipv4_address":"192.168.41.69", "ipv4_prefix_length":24, "ipv6_address":"fe80::250:56ff:feae:78e0", "ipv6_prefix_length":64}}
+2016/04/27 23:05:41 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:41 [DEBUG] "ci-ds"
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalWriteState
+2016/04/27 23:05:41 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:41 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:41 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:41 [TRACE] [walkRefresh] Exiting eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:41 [DEBUG] vertex provider.vsphere (close), got dep: vsphere_virtual_machine.nodes
+2016/04/27 23:05:41 [DEBUG] vertex root.provider.vsphere (close): walking
+2016/04/27 23:05:41 [DEBUG] vertex root.provider.vsphere (close): evaluating
+2016/04/27 23:05:41 [TRACE] [walkRefresh] Entering eval tree: provider.vsphere (close)
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalCloseProvider
+2016/04/27 23:05:41 [TRACE] [walkRefresh] Exiting eval tree: provider.vsphere (close)
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.ConfigTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.OrphanTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.AddOutputOrphanTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.MissingProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.ProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.DisableProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.ProvisionerTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.VertexTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.FlattenTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.ProxyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.TargetsTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.PruneProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.DestroyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+  vsphere_virtual_machine.nodes (destroy tainted)
+  vsphere_virtual_machine.nodes (destroy)
+vsphere_virtual_machine.nodes (destroy tainted)
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.CreateBeforeDestroyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+  vsphere_virtual_machine.nodes (destroy tainted)
+vsphere_virtual_machine.nodes (destroy tainted)
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.PruneDestroyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.PruneNoopTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.CloseProviderTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  vsphere_virtual_machine.nodes
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:41 [TRACE] Graph after step *terraform.RootTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  vsphere_virtual_machine.nodes
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:41 [DEBUG] Starting graph walk: walkPlan
+2016/04/27 23:05:41 [DEBUG] vertex root.provider.vsphere: walking
+2016/04/27 23:05:41 [DEBUG] vertex root.provider.vsphere: evaluating
+2016/04/27 23:05:41 [TRACE] [walkPlan] Entering eval tree: provider.vsphere
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalInitProvider
+2016/04/27 23:05:41 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:41 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalBuildProviderConfig
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalSetProviderConfig
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:41 [DEBUG] root: eval: *terraform.EvalConfigProvider
+2016/04/27 23:05:42 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:42 [INFO] VMWare vSphere Client configured for URL: https://localhost%5Ccloudinfra1:cloudinfra1@smx-vcenter.cisco.com/sdk
+2016/04/27 23:05:42 [TRACE] [walkPlan] Exiting eval tree: provider.vsphere
+2016/04/27 23:05:42 [DEBUG] vertex vsphere_virtual_machine.nodes, got dep: provider.vsphere
+2016/04/27 23:05:42 [DEBUG] vertex root.vsphere_virtual_machine.nodes: walking
+2016/04/27 23:05:42 [DEBUG] vertex root.vsphere_virtual_machine.nodes: evaluating
+2016/04/27 23:05:42 [TRACE] [walkPlan] Entering eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/27 23:05:42 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
+2016/04/27 23:05:42 [TRACE] [walkPlan] Exiting eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [DEBUG] vertex root.vsphere_virtual_machine.nodes: expanding/walking dynamic subgraph
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.ResourceCountTransformer:
+
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.TargetsTransformer:
+
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.RootTransformer:
+
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [DEBUG] vertex root.vsphere_virtual_machine.nodes: walking
+2016/04/27 23:05:42 [DEBUG] vertex root.vsphere_virtual_machine.nodes: evaluating
+2016/04/27 23:05:42 [TRACE] [walkPlan] Entering eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:42 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalInstanceInfo
+2016/04/27 23:05:42 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalReadState
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalDiff
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalCheckPreventDestroy
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalIgnoreChanges
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalWriteState
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalDiffTainted
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalWriteDiff
+2016/04/27 23:05:42 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:42 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:42 [TRACE] [walkPlan] Exiting eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [DEBUG] vertex provider.vsphere (close), got dep: vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [DEBUG] vertex root.provider.vsphere (close): walking
+2016/04/27 23:05:42 [DEBUG] vertex root.provider.vsphere (close): evaluating
+2016/04/27 23:05:42 [TRACE] [walkPlan] Entering eval tree: provider.vsphere (close)
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalCloseProvider
+2016/04/27 23:05:42 [TRACE] [walkPlan] Exiting eval tree: provider.vsphere (close)
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.ConfigTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.OrphanTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.AddOutputOrphanTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.MissingProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.ProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.DisableProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.ProvisionerTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.VertexTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.FlattenTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.ProxyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.TargetsTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.PruneProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.DestroyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+  vsphere_virtual_machine.nodes (destroy tainted)
+  vsphere_virtual_machine.nodes (destroy)
+vsphere_virtual_machine.nodes (destroy tainted)
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.CreateBeforeDestroyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+  vsphere_virtual_machine.nodes (destroy tainted)
+vsphere_virtual_machine.nodes (destroy tainted)
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.PruneDestroyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.PruneNoopTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.CloseProviderTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+  vsphere_virtual_machine.nodes (destroy)
+vsphere_virtual_machine.nodes
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+  vsphere_virtual_machine.nodes (destroy)
+vsphere_virtual_machine.nodes
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  vsphere_virtual_machine.nodes (destroy)
+vsphere_virtual_machine.nodes
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.RootTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  vsphere_virtual_machine.nodes (destroy)
+vsphere_virtual_machine.nodes
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.ConfigTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.OrphanTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.AddOutputOrphanTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.MissingProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.ProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.DisableProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.ProvisionerTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.VertexTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.FlattenTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.ProxyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.TargetsTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.PruneProviderTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.DestroyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+  vsphere_virtual_machine.nodes (destroy tainted)
+  vsphere_virtual_machine.nodes (destroy)
+vsphere_virtual_machine.nodes (destroy tainted)
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.CreateBeforeDestroyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+  vsphere_virtual_machine.nodes (destroy tainted)
+vsphere_virtual_machine.nodes (destroy tainted)
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.PruneDestroyTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.PruneNoopTransformer:
+
+provider.vsphere
+vsphere_virtual_machine.nodes
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.CloseProviderTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+  vsphere_virtual_machine.nodes (destroy)
+vsphere_virtual_machine.nodes
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+  vsphere_virtual_machine.nodes (destroy)
+vsphere_virtual_machine.nodes
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  provider.vsphere
+  vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  vsphere_virtual_machine.nodes (destroy)
+vsphere_virtual_machine.nodes
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [TRACE] Graph after step *terraform.RootTransformer:
+
+provider.vsphere
+provider.vsphere (close)
+  vsphere_virtual_machine.nodes (destroy)
+vsphere_virtual_machine.nodes
+  provider.vsphere
+vsphere_virtual_machine.nodes (destroy)
+  vsphere_virtual_machine.nodes
+2016/04/27 23:05:42 [DEBUG] Starting graph walk: walkApply
+2016/04/27 23:05:42 [DEBUG] vertex root.provider.vsphere: walking
+2016/04/27 23:05:42 [DEBUG] vertex root.provider.vsphere: evaluating
+2016/04/27 23:05:42 [TRACE] [walkApply] Entering eval tree: provider.vsphere
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalInitProvider
+2016/04/27 23:05:42 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:42 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalBuildProviderConfig
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalSetProviderConfig
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:42 [DEBUG] root: eval: *terraform.EvalConfigProvider
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:43 [INFO] VMWare vSphere Client configured for URL: https://localhost%5Ccloudinfra1:cloudinfra1@smx-vcenter.cisco.com/sdk
+2016/04/27 23:05:43 [TRACE] [walkApply] Exiting eval tree: provider.vsphere
+2016/04/27 23:05:43 [DEBUG] vertex vsphere_virtual_machine.nodes, got dep: provider.vsphere
+2016/04/27 23:05:43 [DEBUG] vertex root.vsphere_virtual_machine.nodes: walking
+2016/04/27 23:05:43 [DEBUG] vertex root.vsphere_virtual_machine.nodes: evaluating
+2016/04/27 23:05:43 [TRACE] [walkApply] Entering eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/27 23:05:43 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalCountFixZeroOneBoundary
+2016/04/27 23:05:43 [TRACE] [walkApply] Exiting eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:43 [DEBUG] vertex root.vsphere_virtual_machine.nodes: expanding/walking dynamic subgraph
+2016/04/27 23:05:43 [TRACE] Graph after step *terraform.ResourceCountTransformer:
+
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:43 [TRACE] Graph after step *terraform.TargetsTransformer:
+
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:43 [TRACE] Graph after step *terraform.RootTransformer:
+
+vsphere_virtual_machine.nodes
+2016/04/27 23:05:43 [DEBUG] vertex root.vsphere_virtual_machine.nodes: walking
+2016/04/27 23:05:43 [DEBUG] vertex root.vsphere_virtual_machine.nodes: evaluating
+2016/04/27 23:05:43 [TRACE] [walkApply] Entering eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:43 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalInstanceInfo
+2016/04/27 23:05:43 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:43 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:43 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalOpFilter
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalReadDiff
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalIf
+2016/04/27 23:05:43 [DEBUG] root: eval: terraform.EvalNoop
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalIf
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalDeposeState
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalInterpolate
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalReadState
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalDiff
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalIgnoreChanges
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalReadDiff
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalCompareDiff
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalGetProvider
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalReadState
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalApply
+2016/04/27 23:05:43 [DEBUG] apply: vsphere_virtual_machine.nodes: executing Apply
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:43 [DEBUG] network_interface init: [{ PortGroup-2000  0  0 }]
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:43 [DEBUG] disk init: [{0 0 thin}]
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:43 [DEBUG] template: &object.VirtualMachine{Common:object.Common{c:(*vim25.Client)(0xc82033e280), r:types.ManagedObjectReference{Type:"VirtualMachine", Value:"vm-3798"}}, InventoryPath:"/CloudInfra/vm/templates/testTemplate"}
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:43 [DEBUG] resource pool: &object.ResourcePool{Common:object.Common{c:(*vim25.Client)(0xc82033e280), r:types.ManagedObjectReference{Type:"ResourcePool", Value:"resgroup-2152"}}, InventoryPath:"/CloudInfra/host/ci-hosts/Resources"}
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:43 [DEBUG] folder: "VmInstances"
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 2016/04/27 23:05:43 [DEBUG] datastore: &object.Datastore{Common:object.Common{c:(*vim25.Client)(0xc82033e280), r:types.ManagedObjectReference{Type:"Datastore", Value:"datastore-2156"}}, InventoryPath:"/CloudInfra/datastore/ci-ds/datastore2"}
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: panic: runtime error: invalid memory address or nil pointer dereference
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: [signal 0xb code=0x1 addr=0x0 pc=0x50e5f9]
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: goroutine 78 [running]:
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: panic(0x1167a40, 0xc82000a0e0)
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 	/opt/go/src/runtime/panic.go:464 +0x3e6
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: github.com/hashicorp/terraform/vendor/github.com/vmware/govmomi/object.VirtualMachine.Device(0xc82033e280, 0xc82034e560, 0xe, 0xc82034e580, 0x7, 0xc820374a80, 0x25, 0x7f7d1385e610, 0xc820076e50, 0x0, ...)
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 	/opt/gopath/src/github.com/hashicorp/terraform/vendor/github.com/vmware/govmomi/object/virtual_machine.go:257 +0x279
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: github.com/hashicorp/terraform/builtin/providers/vsphere.buildVMRelocateSpec(0xc82053c0c0, 0xc820511fc0, 0xc820379500, 0xc82050596c, 0x4, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 	/opt/gopath/src/github.com/hashicorp/terraform/builtin/providers/vsphere/resource_vsphere_virtual_machine.go:713 +0xc7
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: github.com/hashicorp/terraform/builtin/providers/vsphere.(*virtualMachine).deployVirtualMachine(0xc8201545a0, 0xc820453070, 0x0, 0x0)
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 	/opt/gopath/src/github.com/hashicorp/terraform/builtin/providers/vsphere/resource_vsphere_virtual_machine.go:1102 +0x10d9
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: github.com/hashicorp/terraform/builtin/providers/vsphere.resourceVSphereVirtualMachineCreate(0xc82035aa20, 0x13c1a60, 0xc820453070, 0x0, 0x0)
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 	/opt/gopath/src/github.com/hashicorp/terraform/builtin/providers/vsphere/resource_vsphere_virtual_machine.go:414 +0x1f74
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: github.com/hashicorp/terraform/helper/schema.(*Resource).Apply(0xc82032c8c0, 0xc820375740, 0xc820505800, 0x13c1a60, 0xc820453070, 0xc820375801, 0x0, 0x0)
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 	/opt/gopath/src/github.com/hashicorp/terraform/helper/schema/resource.go:146 +0x29e
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: github.com/hashicorp/terraform/helper/schema.(*Provider).Apply(0xc82026aa80, 0xc820566d40, 0xc820375740, 0xc820505800, 0x1, 0x0, 0x0)
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 	/opt/gopath/src/github.com/hashicorp/terraform/helper/schema/provider.go:162 +0x1ed
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: github.com/hashicorp/terraform/rpc.(*ResourceProviderServer).Apply(0xc8204bec80, 0xc82047c720, 0xc820505a10, 0x0, 0x0)
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 	/opt/gopath/src/github.com/hashicorp/terraform/rpc/resource_provider.go:323 +0x76
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: reflect.Value.call(0x10700c0, 0x13700f8, 0x13, 0x13decd8, 0x4, 0xc82058dea8, 0x3, 0x3, 0x0, 0x0, ...)
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 	/opt/go/src/reflect/value.go:435 +0x120d
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: reflect.Value.Call(0x10700c0, 0x13700f8, 0x13, 0xc82058dea8, 0x3, 0x3, 0x0, 0x0, 0x0)
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 	/opt/go/src/reflect/value.go:303 +0xb1
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: net/rpc.(*service).call(0xc82032c940, 0xc82032c900, 0xc820502380, 0xc82023c900, 0xc8204beca0, 0xdccae0, 0xc82047c720, 0x16, 0xdccb40, 0xc820505a10, ...)
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 	/opt/go/src/net/rpc/server.go:383 +0x1c2
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: created by net/rpc.(*Server).ServeCodec
+2016/04/27 23:05:43 [DEBUG] terraform-provider-vsphere: 	/opt/go/src/net/rpc/server.go:477 +0x49d
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalWriteState
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalApplyProvisioners
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalIf
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalUndeposeState
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalWriteDiff
+2016/04/27 23:05:43 [DEBUG] /home/centos/tmp/terraform-provider-vsphere: plugin process exited
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalIf
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalSequence
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalWriteStateTainted
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalIf
+2016/04/27 23:05:43 [DEBUG] root: eval: *terraform.EvalApplyPost
+2016/04/27 23:05:43 [ERROR] root: eval: *terraform.EvalApplyPost, err: 1 error(s) occurred:
+
+* vsphere_virtual_machine.nodes: unexpected EOF
+2016/04/27 23:05:43 [ERROR] root: eval: *terraform.EvalSequence, err: 1 error(s) occurred:
+
+* vsphere_virtual_machine.nodes: unexpected EOF
+2016/04/27 23:05:43 [ERROR] root: eval: *terraform.EvalOpFilter, err: 1 error(s) occurred:
+
+* vsphere_virtual_machine.nodes: unexpected EOF
+2016/04/27 23:05:43 [ERROR] root: eval: *terraform.EvalSequence, err: 1 error(s) occurred:
+
+* vsphere_virtual_machine.nodes: unexpected EOF
+2016/04/27 23:05:43 [TRACE] [walkApply] Exiting eval tree: vsphere_virtual_machine.nodes
+2016/04/27 23:05:43 [DEBUG] vertex vsphere_virtual_machine.nodes (destroy), got dep: vsphere_virtual_machine.nodes
+2016/04/27 23:05:43 [DEBUG] vertex provider.vsphere (close), got dep: vsphere_virtual_machine.nodes (destroy)
+2016/04/27 23:05:43 [DEBUG] waiting for all plugin processes to complete...

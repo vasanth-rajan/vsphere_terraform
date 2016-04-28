@@ -1,0 +1,6 @@
+export VSPHERE_USER="localhost\\cloudinfra1"
+export VSPHERE_PASSWORD="cloudinfra1"
+export ANSIBLE_HOST_KEY_CHECKING=False
+export PATH=~/tmp/:$PATH
+#export TF_LOG=TRACE
+exec ssh-agent bash
